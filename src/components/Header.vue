@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="postition: fixed, top:0px">
     <img id='logo' src='../assets/whale-logo.png' alt='Logo'/>
     <div class='headerLeft' style='float: left'>
       <h2>THE MARINE JOURNAL</h2>
@@ -7,17 +7,20 @@
     </div>
     <div style='float: right' class='menu'>
       <div>
-          <md-menu md-direction="bottom-start" :md-offset-y="36">
-              <md-button md-menu-trigger><h4>Home</h4></md-button>
+          <md-menu md-direction="bottom-start" md-align-trigger>
+            <md-button md-menu-trigger><h2>Home</h2></md-button>
           </md-menu>
-          <md-menu md-direction="bottom-start" :md-offset-y="36">
-              <md-button md-menu-trigger><h4>Explore</h4></md-button>
+          <md-menu md-direction="bottom-start" md-align-trigger>
+            <md-button md-menu-trigger><h2>Explore</h2></md-button>
 
-              <md-menu-content>
-                  <md-menu-item>My Item 1</md-menu-item>
-                  <md-menu-item>My Item 2</md-menu-item>
-                  <md-menu-item>My Item 3</md-menu-item>
-              </md-menu-content>
+            <md-menu-content>
+              <md-menu-item>The Ocean Floor</md-menu-item>
+              <md-menu-item>Water</md-menu-item>
+              <md-menu-item>Sea Animals</md-menu-item>
+            </md-menu-content>
+          </md-menu>
+          <md-menu md-direction="bottom-start" md-align-trigger>
+            <md-button md-menu-trigger><h2>About</h2></md-button>
           </md-menu>
       </div>
     </div>
@@ -47,9 +50,13 @@ export default {
 .md-button {
   border: none;
   background: none;
+  margin:10px
 }
 .md-menu-item {
   list-style-type: none;
+  margin: 20px;
+  font-size: 1em;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 .headerLeft * {
   text-align:left;
@@ -61,5 +68,9 @@ export default {
   width: 90px;
   height: 90px;
   float: left;
+}
+ul {
+  padding-left: -40px;
+  margin-left: -40px;
 }
 </style>
