@@ -28,4 +28,18 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
+ul {
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+li {
+  padding-left: 10px;
+  padding-right: 5px;
+}
 </style>
