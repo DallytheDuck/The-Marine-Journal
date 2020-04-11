@@ -2,18 +2,21 @@
   <div id="app">
     <Header/>
     <Introduction/>
+    <Quotation/>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
 import Introduction from './components/Introduction.vue';
+import Quotation from './components/Quotation.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
     Introduction,
+    Quotation,
   },
 };
 

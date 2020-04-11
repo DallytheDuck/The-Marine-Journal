@@ -1,6 +1,6 @@
 <template>
   <div class = "section">
-      <div class="box">
+      <div class="white-box">
           <div class="caps-words">
               <p>THE</p><p>MARINE</p><p>JOURNAL</p>
               <div class="not-caps-words">
@@ -28,13 +28,14 @@ export default {
  background-image: url("../assets/homepage.jpg");
   width: 100%;
   height: 90vh;
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 90px;
 
 }
-.box {
+.white-box {
     margin-left: 100px;
     width: 40%;
     height: 80%;

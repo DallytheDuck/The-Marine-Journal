@@ -1,9 +1,10 @@
 <template>
-  <div id="menu">
+
+  <div id='header'>
     <img id='logo' src='../assets/whale-logo.png' alt='Logo'/>
     <div class='headerLeft' style='float: left'>
-      <h2>THE MARINE JOURNAL</h2>
-      <h4>The Beginner's Guide to Marine Ecology</h4>
+      <h2 class="remove-margin" style="margin-top: 12px">THE MARINE JOURNAL</h2>
+      <h4 class="remove-margin">The Beginner's Guide to Marine Ecology</h4>
     </div>
     <div style='float: right' class='menu'>
       <div>
@@ -40,10 +41,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-#menu {
-  height: 100px;
+.remove-margin{
+  margin: 2px;
 }
 
+#header {
+  padding-top: 10px;
+  padding-left: 10px;
+    height: 100px;
+}
 .menu {
   margin-right: 30px;
   padding-top: 15px;
@@ -64,11 +70,11 @@ export default {
   font-size: 1em;
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
-.headerLeft * {
+.headerLeft {
   text-align:left;
   padding-left: 10px;
   margin: 0;
-  padding-top: 7px;
+  padding-top: 2px;
 }
 .md-menu-content {
   background-color: white;
