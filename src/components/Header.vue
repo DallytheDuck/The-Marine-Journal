@@ -1,6 +1,6 @@
 <template>
 
-  <div id='header'>
+  <div class='header'>
     <img id='logo' src='../assets/whale-logo.png' alt='Logo'/>
     <div class='headerLeft' style='float: left'>
       <h2 class="remove-margin" style="margin-top: 12px">THE MARINE JOURNAL</h2>
@@ -40,16 +40,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.header {
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 100px;
+}
 
 .remove-margin{
   margin: 2px;
 }
 
-#header {
-  padding-top: 10px;
-  padding-left: 10px;
-    height: 100px;
-}
 .menu {
   margin-right: 30px;
   padding-top: 15px;
