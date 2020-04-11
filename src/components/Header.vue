@@ -47,6 +47,9 @@ export default {
 .md-menu {
   float: left;
 }
+.md-menu-content-container {
+  padding: 10px;
+}
 .md-button {
   border: none;
   background: none;
@@ -54,7 +57,6 @@ export default {
 }
 .md-menu-item {
   list-style-type: none;
-  margin: 20px;
   font-size: 1em;
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
@@ -63,6 +65,9 @@ export default {
   padding-left: 10px;
   margin: 0;
   padding-top: 7px;
+}
+.md-menu-content {
+  background-color: white;
 }
 #logo {
   width: 90px;
