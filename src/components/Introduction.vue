@@ -28,16 +28,14 @@ export default {
  background-image: url("../assets/homepage.jpg");
   width: 100%;
   height: 90vh;
-  position: fixed;
-  top: 100px;
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 90px;
+
 }
 .box {
     margin-left: 100px;
-    margin-top: 90px;
     width: 40%;
     height: 80%;
     background:rgba(255, 255, 255, 1);

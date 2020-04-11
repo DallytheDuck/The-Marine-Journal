@@ -1,5 +1,5 @@
 <template>
-  <div style="postition: fixed, top:0px">
+  <div id="menu">
     <img id='logo' src='../assets/whale-logo.png' alt='Logo'/>
     <div class='headerLeft' style='float: left'>
       <h2>THE MARINE JOURNAL</h2>
@@ -39,6 +39,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+#menu {
+  height: 100px;
+}
 
 .menu {
   margin-right: 30px;
