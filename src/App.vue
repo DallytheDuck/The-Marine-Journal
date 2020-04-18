@@ -3,6 +3,7 @@
     <Header/>
     <Introduction/>
     <Quotation/>
+    <Overview/>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Header from './components/Header.vue';
 import Introduction from './components/Introduction.vue';
 import Quotation from './components/Quotation.vue';
+import Overview from './components/Overview.vue';
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     Header,
     Introduction,
     Quotation,
+    Overview,
   },
 };
 

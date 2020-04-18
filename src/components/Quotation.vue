@@ -3,7 +3,7 @@
     <div class="quotebox">
       <p id="saying">"The sea, once it casts its spell,
           holds one in its net of wonder forever."</p>
-      <p>Jaques Cousteau</p>
+      <p id="person">Jaques Cousteau</p>
     </div>
     <img src="../assets/quote.jpg" alt="Photo by Matt Hardy on Unsplash" id="imagequote">
   </div>
@@ -23,19 +23,27 @@ export default {
 <style scoped>
 #outside-box {
   background-color: white;
+  margin-top: 10vh;
+  align-content: center;
+  padding-bottom: 10vh;
+  display: inline-block;
 }
 #saying {
-  font-size: 25px;
+  font-size: 40px;
+}
+#person {
+  font-style: italic;
+  font-size: 30px;
 }
 .quotebox {
   background-color: rgb( 245, 247, 250);
-  width: 100vh;
-  height: 600px;
+  width: 45vw;
+  height: 450px;
   float: left;
-  margin-left: 20%;
+  padding-top: 150px;
 }
 #imagequote{
-  width: 30vh;
+  width: 35vw;
   height: 600px;
   float: left;
 }

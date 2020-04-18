@@ -25,15 +25,14 @@ export default {
 <style scoped>
 
 .section {
- background-image: url("../assets/homepage.jpg");
-  width: 100%;
-  height: 90vh;
+    background-image: url("../assets/homepage.jpg");
+    width: 100vw;
+    height: 80vh;
 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 90px;
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
 }
 .white-box {
     margin-left: 100px;
@@ -41,9 +40,10 @@ export default {
     height: 80%;
     background:rgba(255, 255, 255, 1);
     opacity: 0.5;
+    vertical-align: center;
 }
 .caps-words{
-    padding-top:120px;
+    padding-top:20%;
     font-size: 90px;
     text-align: center;
     color: black;
