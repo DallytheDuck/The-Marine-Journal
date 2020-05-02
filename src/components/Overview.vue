@@ -10,7 +10,7 @@
                 <p class="subtitles">THE OCEAN FLOOR</p>
             </div>
             <div>
-                <p>The bottom of the sea ... is it flat? Lumpy? Does it have hills?
+                <p class="description">The bottom of the sea ... is it flat? Lumpy? Does it have hills?
                     In this section, students can learn about oceanography, such as plate tectonics,
                     plate boundaries, features of the deep ocean floor, and continental margins.</p>
             </div>
@@ -21,7 +21,7 @@
                 <p class="subtitles">WATER</p>
             </div>
             <div>
-               <p>This is your item description. Use this space to add a description of the services,
+               <p class="description">This is your item description. Use this space to add a description of the services,
                    products, team members or any other items you want to highlight on your site. Have a lot to say?
                     Easily turn any item into a full page by clicking ‘Create a page from this item’ in the edit panel.</p>
             </div>
@@ -32,7 +32,7 @@
                 <p class="subtitles">OCEAN ANIMALS</p>
             </div>
             <div>
-                <p>This is your item description. Use this space to add a description of the services, 
+                <p class="description">This is your item description. Use this space to add a description of the services, 
                     products, team members or any other items you want to highlight on your site. Have a lot to say? 
                     Easily turn any item into a full page by clicking ‘Create a page from this item’ in the edit panel.</p>
             </div>
@@ -82,7 +82,10 @@ export default {
     font-size: 18px;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     background-color: rgb( 245, 247, 250);
-    padding: 7px, 5px, 7px, 5px;
+    padding: 10px, 8px, 10px, 8px;
     margin-bottom: 70px;
+}
+.description {
+    line-height: 30px;
 }
 </style>

@@ -26,7 +26,7 @@ export default {
 
 .section {
     background-image: url("../assets/homepage.jpg");
-    width: 100vw;
+    width: 99vw;
     height: 80vh;
 
     background-position: center;
@@ -43,7 +43,7 @@ export default {
     vertical-align: center;
 }
 .caps-words{
-    padding-top:20%;
+    padding-top:12vh;
     font-size: 90px;
     text-align: center;
     color: black;

@@ -29,11 +29,11 @@ export default {
   display: inline-block;
 }
 #saying {
-  font-size: 40px;
+  font-size: 30px;
 }
 #person {
   font-style: italic;
-  font-size: 30px;
+  font-size: 25px;
 }
 .quotebox {
   background-color: rgb( 245, 247, 250);
@@ -41,6 +41,8 @@ export default {
   height: 450px;
   float: left;
   padding-top: 150px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 #imagequote{
   width: 35vw;
