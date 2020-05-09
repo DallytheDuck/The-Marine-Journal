@@ -82,7 +82,7 @@ export default {
     font-size: 18px;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     background-color: rgb( 245, 247, 250);
-    padding: 10px, 8px, 10px, 8px;
+    padding: 15px, 13px, 15px, 13px;
     margin-bottom: 70px;
 }
 .description {
