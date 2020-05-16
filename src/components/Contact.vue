@@ -1,24 +1,46 @@
 /* eslint-disable max-len */
 <template>
-    <div>
-        <div>
-            <div>
-                <p>CONTACT</p>
-            </div>
-            <div>
-                <p>This is your item description. Use this space to add a description of the services,
-                   products, team members or any other items you want to highlight on your site. Have a lot to say?
-                    Easily turn any item into a full page by clicking ‘Create a page from this item’ in the edit panel.</p>
-            </div>
-                <p>emmaswleung@gmail.com</p>
-            <div>
-                <a target="_blank" href="https://www.instagram.com/emmaswleung/"><img src="../assets/instagram-vector.png" alt="Instagram Vector by WIX"></a>
-            </div>
+    <div id="contact-section">
+        <div class="sub-sections">
+                <div>
+                    <div id="section-title">CONTACT</div>
+                </div>
+                <div>
+                    <p id="section-text">Thanks for your interest in The Marine Journal. 
+                        For more information, feel free to get in touch and I will get back to you soon! 
+                        Please contact me by Instagram or e-mail for fast responses.</p>
+                </div>
+                    <p>emmaswleung@gmail.com</p>
+                <div>
+                    <a target="_blank" href="https://www.instagram.com/emmaswleung/"><img id="instagram" src="../assets/instagram-vector.png" alt="Instagram Vector by WIX"></a>
+                </div>
         </div>
-        <div>
+        <div class="sub-sections">
+            <div>
+                <div>
+                    <input type ="text" class="input split input-height" style="margin-right: 9%" placeholder="Name"/>
+                </div>
+
+                <div>
+                    <input type ="text" class="input split input-height" placeholder="E-mail"/>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <input type ="text" class="input other-input input-height" placeholder="Subject"/>
+                </div>
+
+                <div>
+                    <textarea type ="text" class="input other-input input-height" style="margin-top: 10px" placeholder="Type your question/Report a bug"/>
+                </div>
+            </div>
+            <md-field>
+                <button id="submit-button">Submit</button>
+            </md-field>
         </div>
     </div>
 </template>
+
 
 <script>
 
@@ -34,9 +56,21 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.textarea {
+    font-family: Avenir, Helvetica, Arial, sans-serif
+}
+input[type="text"] {
+    font-size:18px;
+}
+textarea[type="text"] {
+    font-size:18px;
+}
 #contact-section {
     background-color: rgb(228, 239, 242);
     height: 80vh;
+}
+.input-height {
+    height: 70px;
 }
 .split {
     float: left;
@@ -68,6 +102,8 @@ export default {
     background-color: #2c3e50;
     color: white;
     border-width: 0px;
+    font-size: 20px;
+    margin: 10px;
 }
 #split {
     float: left;
