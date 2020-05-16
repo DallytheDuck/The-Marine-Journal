@@ -11,3 +11,12 @@ Vue.config.productionTip = false;
 new Vue({
   render: (h) => h(App),
 }).$mount('#app');
+
+
+/* 
+  Router
+  when given a url -> return the corresponding component
+
+  mapping
+    '/' -> 
+*/

@@ -1,21 +1,30 @@
 <template>
   <div id="app">
     <Header/>
-    <Explore/>
+    <Introduction/>
+    <Quotation/>
+    <Overview/>
+    <Contact/>
     <Footer/>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
-import Explore from './components/Explore.vue';
-import Footer from './components/Footer.vue';
+import Introduction from './components/Introduction.vue';
+import Quotation from './components/Quotation.vue';
+import Overview from './components/Overview.vue';
+import Contact from './components/Contact.vue';
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Explore,
+    Introduction,
+    Quotation,
+    Overview,
+    Contact,
     Footer,
   },
 };
