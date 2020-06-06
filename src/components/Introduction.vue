@@ -27,7 +27,7 @@ export default {
 .section {
     background-image: url("../assets/homepage.jpg");
     width: 99vw;
-    height: 80vh;
+    height: 91vh;
 
     background-position: center;
     background-repeat: no-repeat;
@@ -47,11 +47,11 @@ export default {
     font-size: 90px;
     text-align: center;
     color: black;
+    line-height: 100px;
 }
 .not-caps-words {
     font-size: 30px;
     color: black;
-    padding-top:20px;
 }
 p {
     margin:0px;

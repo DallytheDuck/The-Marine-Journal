@@ -15,7 +15,7 @@ import Introduction from './components/Introduction.vue';
 import Quotation from './components/Quotation.vue';
 import Overview from './components/Overview.vue';
 import Contact from './components/Contact.vue';
-import Footer from './components/Footer.vue'
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',

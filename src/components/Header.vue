@@ -43,7 +43,7 @@ export default {
 .header {
   padding-top: 10px;
   padding-left: 10px;
-  height: 100px;
+  height: 90px;
 }
 
 .remove-margin{
@@ -80,8 +80,8 @@ export default {
   background-color: white;
 }
 #logo {
-  width: 90px;
-  height: 90px;
+  width: 75px;
+  height: 75px;
   float: left;
 }
 ul {

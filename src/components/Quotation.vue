@@ -30,6 +30,7 @@ export default {
 }
 #saying {
   font-size: 30px;
+  line-height: 40px;
 }
 #person {
   font-style: italic;
@@ -38,7 +39,7 @@ export default {
 .quotebox {
   background-color: rgb( 245, 247, 250);
   width: 45vw;
-  height: 450px;
+  height: 600px;
   float: left;
   padding-top: 150px;
   padding-right: 20px;

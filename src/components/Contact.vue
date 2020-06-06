@@ -1,7 +1,8 @@
 /* eslint-disable max-len */
 <template>
     <div id="contact-section">
-        <div class="sub-sections">
+        <div class="md-layout md-gutter md-alignment-center">
+            <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
                 <div>
                     <div id="section-title">CONTACT</div>
                 </div>
@@ -14,29 +15,32 @@
                 <div>
                     <a target="_blank" href="https://www.instagram.com/emmaswleung/"><img id="instagram" src="../assets/instagram-vector.png" alt="Instagram Vector by WIX"></a>
                 </div>
-        </div>
-        <div class="sub-sections">
-            <div>
-                <div>
-                    <input type ="text" class="input split input-height" style="margin-right: 9%" placeholder="Name"/>
-                </div>
+            </div>   
 
+            <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
                 <div>
-                    <input type ="text" class="input split input-height" placeholder="E-mail"/>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <input type ="text" class="input other-input input-height" placeholder="Subject"/>
-                </div>
+                    <div>
+                        <input type ="text" class="input split input-height" style="margin-right: 9%" placeholder="Name"/>
+                    </div>
 
-                <div>
-                    <textarea type ="text" class="input other-input input-height" style="margin-top: 10px" placeholder="Type your question/Report a bug"/>
+                    <div>
+                        <input type ="text" class="input split input-height" placeholder="E-mail"/>
+                    </div>
                 </div>
-            </div>
-            <md-field>
-                <button id="submit-button">Submit</button>
-            </md-field>
+                <div>
+                    <div>
+                        <input type ="text" class="input other-input input-height" placeholder="Subject"/>
+                    </div>
+
+                    <div>
+                        <textarea type ="text" class="input other-input input-height" style="margin-top: 10px" placeholder="Type your question/Report a bug"/>
+                    </div>
+                </div>
+                <md-field>
+                    <button id="submit-button">Submit</button>
+                </md-field>
+            </div>  
+   
         </div>
     </div>
 </template>
@@ -56,9 +60,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-.textarea {
-    font-family: Avenir, Helvetica, Arial, sans-serif
+.md-layout-item {
+    width: 20vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
+input, textarea { font-family:inherit; }
+
 input[type="text"] {
     font-size:18px;
 }
@@ -79,12 +87,11 @@ textarea[type="text"] {
 .other-input {
     width: 100%;
 }
-.sub-sections {
+.md-layout {
     width: 30vw;
-    padding-top: 22vh;
+    padding-top: 12vh;
     padding-left: 9vw;
     padding-right: 9vw;
-    float: left;
     vertical-align: center;
 }
 .input {
@@ -105,9 +112,6 @@ textarea[type="text"] {
     font-size: 20px;
     margin: 10px;
 }
-#split {
-    float: left;
-}
 textarea {
     resize: none;
 }
@@ -119,6 +123,7 @@ textarea {
 }
 #section-text {
     font-size: 18px;
+    line-height: 25px;
 }
 #instagram {
     width: 50px;
