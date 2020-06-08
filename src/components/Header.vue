@@ -9,13 +9,13 @@
     <div style='float: right' class='menu'>
       <div>
           <md-menu md-direction="bottom-start" md-align-trigger>
-            <md-button md-menu-trigger><h2>Home</h2></md-button>
+            <md-button md-menu-trigger v-on:click="goHome"><h2>Home</h2></md-button>
           </md-menu>
           <md-menu md-direction="bottom-start" md-align-trigger>
-            <md-button md-menu-trigger><h2>Explore</h2></md-button>
+            <md-button md-menu-trigger v-on:click="goExplore"><h2>Explore</h2></md-button>
 
             <md-menu-content>
-              <md-menu-item>The Ocean Floor</md-menu-item>
+              <md-menu-item v-on:click="goSeafloor">The Ocean Floor</md-menu-item>
               <md-menu-item>Water</md-menu-item>
               <md-menu-item>Sea Animals</md-menu-item>
             </md-menu-content>
@@ -34,6 +34,17 @@ export default {
   name: 'Header',
   components: {
   },
+  methods:{
+    goHome() {
+      window.location = '/'
+    },
+    goExplore() {
+      window.location = '/explore'
+    },
+    goSeafloor() {
+      window.location = '/seafloor'
+    },
+  }
 };
 
 </script>

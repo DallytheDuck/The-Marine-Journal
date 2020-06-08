@@ -4,6 +4,7 @@ import 'vue-material/dist/vue-material.css';
 
 import Home from './Home.vue';
 import Explore from './Explore.vue';
+import Seafloor from './Seafloor.vue'
 
 
 Vue.use(VueMaterial);
@@ -12,6 +13,7 @@ Vue.use(VueMaterial);
 const routes = {
   '/': Home,
   '/explore': Explore,
+  '/seafloor': Seafloor,
 };
 
 

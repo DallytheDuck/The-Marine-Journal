@@ -58,12 +58,21 @@ export default {
 #oceanography{
     background-image: url("../assets/sea-floor.jpg");
 }
+#seawater{
+    background-image: url("../assets/sea-water.jpg");
+}
+#seaanimals{
+    background-image: url("../assets/sea-whale.jpg");
+}
 .md-card {
     width: 320px;
     height: 320px;
     margin: 4px;
     display: inline-block;
     vertical-align: top;
+}
+.md-layout-item {
+    padding: 0px;
 }
 .md-title {
     font-size: 35px;
