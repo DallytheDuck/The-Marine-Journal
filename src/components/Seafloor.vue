@@ -88,6 +88,14 @@ export default {
     background-image: url("../assets/plate-tectonics.png");
     opacity: 0.8;
 }
+#plateboundaries {
+    background-image: url("../assets/plate-boundaries.png");
+    opacity: 0.8;
+}
+#seafloorfeatures {
+    background-image: url("../assets/seafloor-features.png");
+    opacity: 0.8;
+}
 .md-card {
     width: 320px;
     height: 320px;
