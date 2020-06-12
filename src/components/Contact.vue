@@ -1,22 +1,21 @@
 /* eslint-disable max-len */
 <template>
-    <div id="contact-section">
-        <div class="md-layout md-gutter md-alignment-center">
+         <div class="md-layout md-gutter" id="contact-section">
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
                 <div>
                     <div id="section-title">CONTACT</div>
                 </div>
                 <div>
-                    <p id="section-text">Thanks for your interest in The Marine Journal. 
-                        For more information, feel free to get in touch and I will get back to you soon! 
-                        Please contact me by Instagram or e-mail for fast responses.</p>
+                    <p id="section-text">Thanks for your interest in The Marine Journal.
+                        For more information, feel free to get in touch and I will get back to you soon!
+                        Please contact me by Instagram or e-mail for fast responses.
+                    </p>
                 </div>
                     <p>emmaswleung@gmail.com</p>
                 <div>
                     <a target="_blank" href="https://www.instagram.com/emmaswleung/"><img id="instagram" src="../assets/instagram-vector.png" alt="Instagram Vector by WIX"></a>
                 </div>
-            </div>   
-
+            </div>
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
                 <div>
                     <div>
@@ -31,7 +30,6 @@
                     <div>
                         <input type ="text" class="input other-input input-height" placeholder="Subject"/>
                     </div>
-
                     <div>
                         <textarea type ="text" class="input other-input input-height" style="margin-top: 10px" placeholder="Type your question/Report a bug"/>
                     </div>
@@ -39,10 +37,8 @@
                 <md-field>
                     <button id="submit-button">Submit</button>
                 </md-field>
-            </div>  
-   
+            </div>
         </div>
-    </div>
 </template>
 
 
@@ -60,11 +56,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-.md-layout-item {
-    width: 20vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-}
+
 input, textarea { font-family:inherit; }
 
 input[type="text"] {
@@ -75,7 +67,8 @@ textarea[type="text"] {
 }
 #contact-section {
     background-color: rgb(228, 239, 242);
-    height: 80vh;
+    height: 50vh;
+    width: 100vw;
 }
 .input-height {
     height: 70px;
@@ -104,6 +97,12 @@ textarea[type="text"] {
 .input:focus {
     outline: none;
 }
+
+.md-layout-item {
+    height: 40px;
+    width: 80px;
+}
+
 #submit-button {
     border-radius: 0;
     background-color: #2c3e50;
