@@ -38,17 +38,27 @@
                     <button id="submit-button">Submit</button>
                 </md-field>
             </div>
+            <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
+            <Array
+                v-for="contact in contacts"
+                v-bind:key="contact.id"
+                v-bind:name="contact.name"
+                v-bind:description="contact.description"
+            >
+            </Array>
+            </div>
+
         </div>
 </template>
 
 
 <script>
 
+
 export default {
   name: 'Contact',
-  components: {
-  },
-};
+}
+
 
 </script>
 

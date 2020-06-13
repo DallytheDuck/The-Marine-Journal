@@ -13,12 +13,6 @@
           </md-menu>
           <md-menu md-direction="bottom-start" md-align-trigger>
             <md-button md-menu-trigger v-on:click="goExplore"><h2>Explore</h2></md-button>
-
-            <md-menu-content>
-              <md-menu-item v-on:click="goSeafloor">The Ocean Floor</md-menu-item>
-              <md-menu-item>Water</md-menu-item>
-              <md-menu-item>Sea Animals</md-menu-item>
-            </md-menu-content>
           </md-menu>
           <md-menu md-direction="bottom-start" md-align-trigger>
             <md-button md-menu-trigger><h2>About</h2></md-button>
@@ -44,7 +38,7 @@ export default {
     goSeafloor() {
       window.location = '/seafloor'
     },
-  }
+  },
 };
 
 </script>
@@ -74,7 +68,8 @@ export default {
 .md-button {
   border: none;
   background: none;
-  margin:10px
+  margin:10px;
+  color:#2c3e50;
 }
 .md-menu-item {
   list-style-type: none;
