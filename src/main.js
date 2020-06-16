@@ -5,6 +5,7 @@ import 'vue-material/dist/vue-material.css';
 import Home from './Home.vue';
 import Explore from './Explore.vue';
 import Seafloor from './Seafloor.vue';
+import Water from './Water.vue';
 import template from './template.vue';
 
 
@@ -15,6 +16,7 @@ const routes = {
   '/': Home,
   '/explore': Explore,
   '/seafloor': Seafloor,
+  '/water': Water,
   '/template': template,
 };
 
