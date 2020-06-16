@@ -80,8 +80,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-#seafloormapping {
-    background-image: url("../assets/seafloor-mapping.jpg");
+#longandlat {
+    background-image: url("../assets/longandlat.jpg");
+    opacity: 0.8;
+}
+#platetectonics {
+    background-image: url("../assets/plate-tectonics.png");
+    opacity: 0.8;
+}
+#plateboundaries {
+    background-image: url("../assets/plate-boundaries.png");
+    opacity: 0.8;
+}
+#seafloorfeatures {
+    background-image: url("../assets/seafloor-features.png");
     opacity: 0.8;
 }
 .md-card {
