@@ -8,6 +8,7 @@ import Seafloor from './Seafloor.vue';
 import Water from './Water.vue';
 import Animals from './Animals.vue'
 import LongandLat from './LongandLat.vue'
+import PlateTectonics from './PlateTectonics.vue'
 import template from './template.vue';
 
 
@@ -21,6 +22,7 @@ const routes = {
   '/water': Water,
   '/animals': Animals,
   '/longandlat': LongandLat,
+  '/platetectonics': PlateTectonics,
   '/template': template,
 };
 

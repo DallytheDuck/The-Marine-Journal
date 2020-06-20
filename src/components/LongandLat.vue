@@ -10,7 +10,7 @@
                     east or west something is. These lines are vertical. The Prime Meridian is the central line, 
                     which is at 0°. The International Date Line is at 180°.</p>
                 <p class="information-subtext">How Longitude and Latitude are Represented</p>
-                    <p class="information-text">Longitude and latitude are written out as 40°N, 115°E, 60°S, 
+                    <p class="information-text">Longitude and latitude are written out as 40°N, 115°E; 60°S, 
                     100°W etc. For full coordinates, they are written out as 75° 2’ 3’’ N, 36° 27’ 31’’ E etc. 
                     Here, 1° is read as 60 minutes. The number with one apostrophe means minutes, and the number
                     with two apostrophes means seconds.</p>
