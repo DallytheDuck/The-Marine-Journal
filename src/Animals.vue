@@ -1,21 +1,21 @@
 <template>
   <div id="app">
     <Header/>
-    <Seafloor/>
+    <Animals/>
     <Footer/>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
-import Seafloor from './components/Seafloor.vue'
+import Animals from './components/Animals.vue'
 import Footer from './components/Footer.vue';
 
 export default {
-  name: 'SeafloorPage',
+  name: 'AnimalsPage',
   components: {
     Header,
-    Seafloor,
+    Animals,
     Footer,
   },
 };

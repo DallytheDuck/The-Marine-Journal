@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header/>
-  <templateA/>
+    <templateA/>
     <Footer/>
   </div>
 </template>
@@ -12,7 +12,7 @@ import templateA from './components/templateA.vue'
 import Footer from './components/Footer.vue';
 
 export default {
-  name: 'App',
+  name: 'templateAPage',
   components: {
     Header,
     templateA,

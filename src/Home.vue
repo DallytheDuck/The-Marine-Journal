@@ -18,7 +18,7 @@ import Contact from './components/Contact.vue';
 import Footer from './components/Footer.vue';
 
 export default {
-  name: 'App',
+  name: 'HomePage',
   components: {
     Header,
     Introduction,

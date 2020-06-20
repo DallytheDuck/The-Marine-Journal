@@ -1,45 +1,45 @@
 <template>
     <div id="big-box">
         <div>
-            <p id="title-text">WATER</p>
+            <p id="title-text">SEA ANIMALS</p>
         </div>
         <div>
-            <p id="subtext">These are subsections for learning about water.
+            <p id="subtext">These are subsections for learning about sea animals.
             </p>
         </div>
         <div class="md-layout md-gutter md-alignment-center">
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
-                <md-card md-with-hover  id="tides">
+                <md-card md-with-hover  id="planktonnekton">
                     <md-ripple>
                         <md-card-header>
-                        <div class="md-title">Tides</div>
+                        <div class="md-title">Plankton and Nekton</div>
                         </md-card-header>
                     </md-ripple>
                 </md-card>
             </div>
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100" >
-                <md-card md-with-hover id="Waves">
+                <md-card md-with-hover id="taxonomy">
                     <md-ripple>
                         <md-card-header>
-                        <div class="md-title">Waves</div>
+                        <div class="md-title">Taxonomy</div>
                         </md-card-header>
                     </md-ripple>
                 </md-card>
             </div>
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100" >
-                <md-card md-with-hover id="propertiesofwater">
+                <md-card md-with-hover id="marineinvertabrates">
                     <md-ripple>
                         <md-card-header>
-                        <div class="md-title">Properties of Water</div>
+                        <div class="md-title">Marine Invertabrates</div>
                         </md-card-header>
                     </md-ripple>
                 </md-card>
             </div>
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100" >
-                <md-card md-with-hover id="temperature">
+                <md-card md-with-hover id="lifezones">
                     <md-ripple>
                         <md-card-header>
-                        <div class="md-title">Temperature in the Ocean</div>
+                        <div class="md-title">Life Zones</div>
                         </md-card-header>
                     </md-ripple>
                 </md-card>
@@ -47,37 +47,37 @@
         </div>
         <div class="md-layout md-gutter md-alignment-center">
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100" >
-                <md-card md-with-hover id="salinity">
+                <md-card md-with-hover id="fish">
                     <md-ripple>
                         <md-card-header>
-                        <div class="md-title">Salinity</div>
+                        <div class="md-title">Fish</div>
                         </md-card-header>
                     </md-ripple>
                 </md-card>
             </div>
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100" >
-                <md-card md-with-hover id="ph">
+                <md-card md-with-hover id="mollusca">
                     <md-ripple>
                         <md-card-header>
-                        <div class="md-title">The PH Scale</div>
+                        <div class="md-title">Mollusca</div>
                         </md-card-header>
                     </md-ripple>
                 </md-card>
             </div>
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100" >
-                <md-card md-with-hover id="thecarboncycle">
+                <md-card md-with-hover id="mammals">
                     <md-ripple>
                         <md-card-header>
-                        <div class="md-title">The Carbon Cycle</div>
+                        <div class="md-title">Sea Mammals</div>
                         </md-card-header>
                     </md-ripple>
                 </md-card>
             </div>
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100" >
-                <md-card md-with-hover id="oceanacidificationlab">
+                <md-card md-with-hover id="diverstiyindex">
                     <md-ripple>
                         <md-card-header>
-                        <div class="md-title">Ocean Acidification Lab</div>
+                        <div class="md-title">Simpson's Diversity Index</div>
                         </md-card-header>
                     </md-ripple>
                 </md-card>
@@ -89,7 +89,7 @@
 <script>
 
 export default {
-  name: 'Water',
+  name: 'Animals',
   components: {
   },
 };

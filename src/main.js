@@ -6,6 +6,8 @@ import Home from './Home.vue';
 import Explore from './Explore.vue';
 import Seafloor from './Seafloor.vue';
 import Water from './Water.vue';
+import Animals from './Animals.vue'
+import LongandLat from './LongandLat.vue'
 import template from './template.vue';
 
 
@@ -17,6 +19,8 @@ const routes = {
   '/explore': Explore,
   '/seafloor': Seafloor,
   '/water': Water,
+  '/animals': Animals,
+  '/longandlat': LongandLat,
   '/template': template,
 };
 

@@ -4,7 +4,7 @@
             <p id="title-text">EXPLORE</p>
         </div>
         <div>
-            <p id="subtext">There are three parts to this website, 'The Ocean Floor', 'Water', and 'Sea Animals'.
+            <p id="subtext">There are three parts to this website, 'The Ocean Floor', 'Water', 'Sea Animals', and 'Human Impacts'.
                 Pick the path for what you want to learn.
             </p>
         </div>
@@ -35,6 +35,16 @@
                         <md-card-header>
                         <div class="md-title">Sea Animals</div>
                         <div class="md-subhead">Animals that Live in the Sea</div>
+                        </md-card-header>
+                    </md-ripple>
+                </md-card>
+            </div>
+            <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100" >
+                <md-card md-with-hover id="humanimpacts">
+                    <md-ripple>
+                        <md-card-header>
+                        <div class="md-title">Human Impacts</div>
+                        <div class="md-subhead">Negative Impacts of Humans to the Ocean</div>
                         </md-card-header>
                     </md-ripple>
                 </md-card>
