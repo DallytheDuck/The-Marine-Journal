@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 <template>
          <div class="md-layout md-gutter" id="contact-section">
-            <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
+            <div class="md-layout-item md-medium-size-50 md-small-size-50 md-xsmall-size-100">
                 <div>
                     <div id="section-title">CONTACT</div>
                 </div>
@@ -16,7 +16,7 @@
                     <a target="_blank" href="https://www.instagram.com/emmaswleung/"><img id="instagram" src="../assets/instagram-vector.png" alt="Instagram Vector by WIX"></a>
                 </div>
             </div>
-            <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
+            <div class="md-layout-item md-medium-size-50 md-small-size-50 md-xsmall-size-100">
                 <div>
                     <div>
                         <input type ="text" class="input split input-height" style="margin-right: 9%" placeholder="Name"/>
@@ -38,7 +38,7 @@
                     <button id="submit-button">Submit</button>
                 </md-field>
             </div>
-            <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
+            <!-- <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
             <Array
                 v-for="contact in contacts"
                 v-bind:key="contact.id"
@@ -46,7 +46,7 @@
                 v-bind:description="contact.description"
             >
             </Array>
-            </div>
+            </div> -->
 
         </div>
 </template>

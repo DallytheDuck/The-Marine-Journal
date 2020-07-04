@@ -93,6 +93,7 @@ export default {
     border-width: 1px;
     border-style: solid;
     font-size: 18px;
+    color: #2c3e50;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     background-color: rgb( 245, 247, 250);
     padding: 15px, 13px, 15px, 13px;
