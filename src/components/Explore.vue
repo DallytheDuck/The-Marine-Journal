@@ -8,7 +8,7 @@
                 Pick the path for what you want to learn.
             </p>
         </div>
-        <div class="md-layout md-gutter md-alignment-center">
+        <div class="md-layout md-gutter md-alignment-center"  v-on:click="goSeafloor">
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
                 <md-card md-with-hover  id="oceanography">
                     <md-ripple>
@@ -20,7 +20,7 @@
                 </md-card>
             </div>
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100" >
-                <md-card md-with-hover id="seawater">
+                <md-card md-with-hover id="seawater" >
                     <md-ripple>
                         <md-card-header>
                         <div class="md-title">Water</div>
@@ -59,6 +59,11 @@ export default {
   name: 'Explore',
   components: {
   },
+  methods:{
+    goSeafloor() {
+      window.location = '/seafloor'
+    },
+  }
 };
 
 </script>

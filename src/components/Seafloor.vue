@@ -7,24 +7,28 @@
             <p id="subtext">These are subsections for learning about the sea floor.
             </p>
         </div>
-        <div class="md-layout md-gutter md-alignment-center">
+        <div class="md-layout md-gutter md-alignment-center"> 
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
-                <md-card md-with-hover  id="longandlat">
-                    <md-ripple>
-                        <md-card-header>
-                        <div class="md-title">Longitude and Latitude</div>
-                        </md-card-header>
-                    </md-ripple>
-                </md-card>
+                <div v-on:click="goLongandlat">
+                    <md-card md-with-hover  id="longandlat">
+                        <md-ripple>
+                            <md-card-header>
+                            <div class="md-title">Longitude and Latitude</div>
+                            </md-card-header>
+                        </md-ripple>
+                    </md-card>
+                </div>
             </div>
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100" >
-                <md-card md-with-hover id="platetectonics">
-                    <md-ripple>
-                        <md-card-header>
-                        <div class="md-title">Plate Tectonics</div>
-                        </md-card-header>
-                    </md-ripple>
-                </md-card>
+                <div v-on:click="goPlatetectonics">
+                    <md-card md-with-hover id="platetectonics">
+                        <md-ripple>
+                            <md-card-header>
+                            <div class="md-title">Plate Tectonics</div>
+                            </md-card-header>
+                        </md-ripple>
+                    </md-card>
+                </div>
             </div>
             <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100" >
                 <md-card md-with-hover id="plateboundaries">
@@ -74,6 +78,14 @@ export default {
   name: 'Explore',
   components: {
   },
+  methods:{
+    goLongandlat() {
+        window.location = '/longandlat'
+    },
+    goPlatetectonics() {
+        window.location = '/platetectonics'
+    },
+  }
 };
 
 </script>

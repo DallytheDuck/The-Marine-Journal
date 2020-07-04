@@ -35,9 +35,6 @@ export default {
     goExplore() {
       window.location = '/explore'
     },
-    goSeafloor() {
-      window.location = '/seafloor'
-    },
   },
 };
 
