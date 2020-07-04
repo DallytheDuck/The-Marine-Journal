@@ -52,7 +52,7 @@
                     <span>Download the full Marine Journal PDF</span></div>
                 <div class="md-layout-item md-size-25">
                     
-                    <a v-bind:href="`${publicPath}longandlat.jpg`" download="pic">
+                    <a v-bind:href="`${publicPath}LongandLat.pdf`" download="Longitude and Latitude Notes">
                         <img src='../assets/document.png'/>
                     </a>
 
