@@ -17,7 +17,7 @@
         <p class="information-subtext">Examples in a Graph</p>
             <p class="information-text">This is an example of how to graph simple coordinates using 
             latitude and longitude.</p>
-            <img src='../assets/GraphLongandLat1.jpg' class="information-bigimage">
+            <img src='../assets/GraphLongandLat1Web.jpg' class="information-bigimage">
             <p class="information-text">This is a graph of Island X. Let’s try to graph Point A, 
             the docks. Let’s start with the x-axis, the latitude, first. The latitude is 10 degrees 
             east, which is written as 10° E. Now let’s do the longitude, which is on the y-axis. 

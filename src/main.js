@@ -6,9 +6,10 @@ import Home from './Home.vue';
 import Explore from './Explore.vue';
 import Seafloor from './Seafloor.vue';
 import Water from './Water.vue';
-import Animals from './Animals.vue'
-import LongandLat from './LongandLat.vue'
-import PlateTectonics from './PlateTectonics.vue'
+import Animals from './Animals.vue';
+import LongandLat from './LongandLat.vue';
+import PlateTectonics from './PlateTectonics.vue';
+import PlateBoundaries from './PlateBoundaries.vue';
 import template from './template.vue';
 
 
@@ -23,6 +24,7 @@ const routes = {
   '/animals': Animals,
   '/longandlat': LongandLat,
   '/platetectonics': PlateTectonics,
+  '/plateboundaries': PlateBoundaries,
   '/template': template,
 };
 

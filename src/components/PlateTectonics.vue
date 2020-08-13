@@ -3,27 +3,32 @@
         <div class="md-layout-item">
             <p class="information-title"><Label>PLATE TECTONICS</Label></p>
                 <p class="information-subtext">The Plates</p>
-                    <p class="information-text">The Earth’s surface is broken into plates that move and interact 
-                    with each other. These are plate tectonics, also called the lithosphere plates. 
-                    They are floating on top of the mantle. The mantle is not liquid, so the plates do not move 
-                    very fast. These are the plates:</p>
-                    <ul>
-                        <li>The Eurasian Plate</li>
-                        <li>The Australian Plate</li>
-                        <li>The Filipino Plate</li>
-                        <li>The North American Plate</li>
-                        <li>The Juan De Fuca Plate</li>
-                        <li>The Cocos Plate</li>
-                        <li>The Pacific Plate</li>
-                        <li>The Caribbean Plate</li>
-                        <li>The Nazca Plate</li>
-                        <li>The Antarctic Plate</li>
-                        <li>The Scotia Plate</li>
-                        <li>The South American Plate</li>
-                        <li>The African Plate</li>
-                        <li>The Indian Plate</li>
-                        <li>The Arabian Plate</li>
-                    </ul>
+                    <p class="information-text">Plate tectonics is an idea used to describe the structure 
+                        of the Earth’s surface. The Earth’s rigid surface, including the crust and some of 
+                        the upper mantle, is broken into plates that move and interact with each other. 
+                        These are plates, also called the tectonic plates. They are floating on top of the 
+                        mantle, and are often compared to the eggshell. The mantle is plastic but not liquid, 
+                        so the plates can move around above the mantle, but do not move fast.</p>
+                    <p class="information-text">These are the major plates:</p>
+                        <ul>
+                            <li>The Australian Plate</li>
+                            <li>The Pacific Plate</li>
+                            <li>The Indian Plate</li>
+                            <li>The Eurasian Plate</li>
+                            <li>The North American Plate</li>
+                            <li>The Antartic Plate</li>
+                            <li>The South American Plate</li>
+                            <li>The African Plate</li>
+                        </ul>
+                    <p class="information-text">These are the minor plates:</p>
+                        <ul>
+                            <li>The Caribbean Plate</li>
+                            <li>The Philippine Sea Plate</li>
+                            <li>The Arabian Plate</li>
+                            <li>The Juan De Fuca Plate</li>
+                            <li>The Cocos Plate</li>
+                            <li>The Scotia Plate</li>
+                        </ul>
         </div>
         <div class="md-layout-item md-size-15"></div>
     </div>
@@ -43,7 +48,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #big-box {
-    background-color: rgb( 245, 247, 250);
+    background-color: #f5f7fa;
     padding-top: 35px;
     padding-bottom: 20px;
 }

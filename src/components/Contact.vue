@@ -17,26 +17,32 @@
                 </div>
             </div>
             <div class="md-layout-item md-medium-size-50 md-small-size-50 md-xsmall-size-100">
-                <div>
+                <form>
                     <div>
-                        <input type ="text" class="input split input-height" style="margin-right: 9%" placeholder="Name"/>
-                    </div>
+                        <div>
+                            <md-input name="name" id="name" v-model="form.name" placeholder="Name" :disabled="sending"  class="input split input-height" style="margin-right: 9%"/>
+                            <!-- <input type ="text" class="input split input-height" style="margin-right: 9%" placeholder="Name"/> -->
+                        </div>
 
-                    <div>
-                        <input type ="text" class="input split input-height" placeholder="E-mail"/>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <input type ="text" class="input other-input input-height" placeholder="Subject"/>
+                        <div>
+                            <md-input name="email" id="email" v-model="form.name" placeholder="Email" :disabled="sending"  class="input split input-height" style="margin-right: 9%"/>
+                            <!-- <input type ="text" class="input split input-height" placeholder="E-mail"/> -->
+                        </div>
                     </div>
                     <div>
-                        <textarea type ="text" class="input other-input input-height" style="margin-top: 10px" placeholder="Type your question/Report a bug"/>
+                        <div>
+                            <md-input name="subject" id="subject" v-model="form.name" placeholder="Subject" :disabled="sending"  class="input split input-height" style="margin-right: 9%"/>
+                            <!-- <input type ="text" class="input other-input input-height" placeholder="Subject"/> -->
+                        </div>
+                        <div>
+                            <md-textarea name="enquiry" id="enquiry" v-model="form.name" placeholder="Type your question/Report a bug" :disabled="sending"  class="input split input-height" style="margin-right: 9%"/>
+                            <!-- <textarea type ="text" class="input other-input input-height" style="margin-top: 10px" placeholder="Type your question/Report a bug"/> -->
+                        </div>
                     </div>
-                </div>
-                <md-field>
-                    <button id="submit-button">Submit</button>
-                </md-field>
+                    <md-field>
+                        <button v-on:click="sendEmail" id="submit-button">Submit</button>
+                    </md-field>
+                </form>
             </div>
             <!-- <div class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100">
             <Array
@@ -56,7 +62,17 @@
 
 
 export default {
-  name: 'Contact',
+    name: 'Contact',
+    data: () => ({
+        form: {
+            name: null,
+        },
+    }),
+    methods: {
+        sendEmail() {
+           // send HTTP POST request to /dataTrasnfer
+        }
+    }
 }
 
 
