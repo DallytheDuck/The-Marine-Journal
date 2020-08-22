@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="md-layout-item md-medium-size-50 md-small-size-50 md-xsmall-size-100">
-                <form>
+                <form v-on:submit.prevent="sendEmail">
                     <div>
                         <div>
                             <md-input name="name" id="name" v-model="form.name" placeholder="Name" :disabled="sending"  class="input split input-height" style="margin-right: 9%"/>
@@ -25,22 +25,22 @@
                         </div>
 
                         <div>
-                            <md-input name="email" id="email" v-model="form.name" placeholder="Email" :disabled="sending"  class="input split input-height" style="margin-right: 9%"/>
+                            <md-input name="email" id="email" v-model="form.email" placeholder="Email" :disabled="sending"  class="input split input-height" style="margin-right: 9%"/>
                             <!-- <input type ="text" class="input split input-height" placeholder="E-mail"/> -->
                         </div>
                     </div>
                     <div>
                         <div>
-                            <md-input name="subject" id="subject" v-model="form.name" placeholder="Subject" :disabled="sending"  class="input split input-height" style="margin-right: 9%"/>
+                            <md-input name="subject" id="subject" v-model="form.subject" placeholder="Subject" :disabled="sending"  class="input split input-height" style="margin-right: 9%"/>
                             <!-- <input type ="text" class="input other-input input-height" placeholder="Subject"/> -->
                         </div>
                         <div>
-                            <md-textarea name="enquiry" id="enquiry" v-model="form.name" placeholder="Type your question/Report a bug" :disabled="sending"  class="input split input-height" style="margin-right: 9%"/>
+                            <md-textarea name="enquiry" id="enquiry" v-model="form.enquiry" placeholder="Type your question/Report a bug" :disabled="sending"  class="input split input-height" style="margin-right: 9%"/>
                             <!-- <textarea type ="text" class="input other-input input-height" style="margin-top: 10px" placeholder="Type your question/Report a bug"/> -->
                         </div>
                     </div>
                     <md-field>
-                        <button v-on:click="sendEmail" id="submit-button">Submit</button>
+                        <button v-on:click="sendEmail" id="submit-button" >Submit</button>
                     </md-field>
                 </form>
             </div>
@@ -60,16 +60,21 @@
 
 <script>
 
-
+import {transfer} from '../helper/requestSender'
 export default {
     name: 'Contact',
     data: () => ({
         form: {
             name: null,
+            email: null,
+            subject: null,
+            enquiry: null,
         },
     }),
     methods: {
         sendEmail() {
+
+            transfer(this.form.name, this.form.email, this.form.subject, this.form.enquiry)
            // send HTTP POST request to /dataTrasnfer
         }
     }
