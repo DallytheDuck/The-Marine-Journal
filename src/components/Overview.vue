@@ -25,9 +25,10 @@
                         <p class="subtitles">WATER</p>
                     </div>
                     <div>
-                    <p class="description">This is your item description. Use this space to add a description of the services,
-                        products, team members or any other items you want to highlight on your site. Have a lot to say?
-                            Easily turn any item into a full page by clicking ‘Create a page from this item’ in the edit panel.</p>
+                    <p class="description">Water is one of the most common necessities in our world. It covers about 71%
+                        of the world. Have you ever thought about what is in the water? What characteristics does it have?
+                        Why is water like this? Here, we will explore characteristics of what composes 71% of where we live.
+                    </p>
                     </div>
                 </div>
             </div>
@@ -38,9 +39,10 @@
                         <p class="subtitles">OCEAN ANIMALS</p>
                     </div>
                     <div>
-                        <p class="description">This is your item description. Use this space to add a description of the services, 
-                            products, team members or any other items you want to highlight on your site. Have a lot to say? 
-                            Easily turn any item into a full page by clicking ‘Create a page from this item’ in the edit panel.</p>
+                        <p class="description">The ocean is filled with all kinds of sea life. There are sponges, mammals, 
+                            deep sea fish, sharks etc. Life blossoms in all kinds of places. Here, we will explore what exactly 
+                            inhabits the deep ocean and their characteristics.
+                        </p>
                     </div>
                 </div>
             </div>
