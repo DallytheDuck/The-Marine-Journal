@@ -41,6 +41,10 @@
                     </div>
                     <md-field>
                         <button v-on:click="sendEmail" id="submit-button" >Submit</button>
+                            <md-dialog-alert
+                                :md-active.sync="show"
+                                md-content="Your enquiry has been sent."
+                                md-confirm-text="Continue" />
                     </md-field>
                 </form>
             </div>
@@ -70,12 +74,18 @@ export default {
             subject: null,
             enquiry: null,
         },
+        show: false
     }),
     methods: {
         sendEmail() {
 
             transfer(this.form.name, this.form.email, this.form.subject, this.form.enquiry)
            // send HTTP POST request to /dataTrasnfer
+            this.form.name = null
+            this.form.email = null
+            this.form.subject = null
+            this.form.enquiry = null
+            this.show = true
         }
     }
 }
@@ -158,5 +168,9 @@ textarea {
 #instagram {
     width: 50px;
     height: 45px;
+}
+.md-dialog {
+    opacity: 1;
+    background-color: white;
 }
 </style>
