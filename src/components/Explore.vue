@@ -9,12 +9,10 @@
         Animals', and 'Human Impacts'. Pick the path for what you want to learn.
       </p>
     </div>
-    <div
-      class="md-layout md-gutter md-alignment-center"
-      v-on:click="goSeafloor"
-    >
+    <div class="md-layout md-gutter md-alignment-center">
       <div
         class="md-layout-item md-medium-size-33 md-small-size-50 md-xsmall-size-100"
+        v-on:click="goSeafloor"
       >
         <md-card md-with-hover id="oceanography">
           <md-ripple>
